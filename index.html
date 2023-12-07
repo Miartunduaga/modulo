@@ -1,54 +1,61 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="app.css">
-  <title>Descargar Ejecutable</title>
-</head>
-<body>
+<html data-bs-theme="light" lang="en">
 
-  <div class="contenedor">
-    <img src="logo.jpg" alt="Logo">
-  </div>
-    <h1 style="width: 600PX;transform: translate(629px) translateX(-23px) translateY(-42px); margin-left:100px; font-size:60px;">MODULO DE VIDEO</h1>
-    <div style="text-align: center;">
-        <section class="py-4 py-xl-5">
-            <div class="container">
-                <div class="text-center p-4 p-lg-5">
-                    <h1 class="fw-bold mb-4"
-                        style="color: var(--bs-body-color);font-family: 'Open Sans', sans-serif;font-size: 50px;">
-                        Para descargar
-                        aplicación movil VLC
-                    </h1>
-                    <a href="ejecutable/vlc.apk" download="vlc.apk">
-                    <button style="background-color: #4B5CA4; color: white; padding: 10px; border-radius: 10px; font-size:20px;" onclick="descargarVlc()" title="VLC" class="btn btn-primary btn-sm">Descargar VLC</button>
-                  </a>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+    <title>Video</title>
+    <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
+</head>
+
+<body style="background: rgb(225,238,217);">
+    <section class="text-center position-relative"><img class="img-fluid" style="max-height: 600px;margin: 20px;"
+            src="assets/img/Video%20(1).png">
+        <div class="card position-absolute top-50 start-50 translate-middle"
+            style="border-radius: 20px;z-index: 1;width: 70%;max-width: 400px;height: 70vh;max-height: 300px;box-shadow: 0px 0px 20px;background: rgb(255,255,255,0.8);backdrop-filter: blur(7px);">
+            <div class="card-body d-flex flex-column justify-content-center align-items-center">
+                <h4 class="card-title">Descarga la aplicación VLC</h4><a
+                    class="btn btn-success btn-lg text-decoration-none my-2" role="button" href="ejecutable/vlc.apk"
+                    download="vlc.apk"><span style="color:rgb(0, 0, 0);">Descargar aplicacion</span></a>
+                <div></div><a class="btn btn-secondary btn-lg text-decoration-none my-2" role="button"
+                    href="#about"><span style="color:rgb(0, 0, 0);">Ver información</span></a>
+            </div>
+        </div>
+    </section>
+    <section id="about" style="margin-top: 500px;">
+        <div class="container py-4 py-xl-5">
+            <div class="row mb-5">
+                <div class="col-md-8 col-xl-6 text-center mx-auto">
+                    <h2>¿Qué es VLC?</h2>
                 </div>
             </div>
-        </section>
-    </div>
-
-
+            <div class="row">
+                <div class="col">
+                    <div class="card" style="border-radius: 20px;">
+                        <div class="card-body">
+                            <h1 class="card-title" style="text-align: center;font-size: 60px;">VLC</h1>
+                            <div class="row">
+                                <div class="col">
+                                    <div>
+                                        <div><img class="img-fluid" style="border-radius: 50%;border-style: dashed;"
+                                                src="assets/img/image.png"></div>
+                                    </div>
+                                </div>
+                                <div class="col">
+                                    <p style="margin-top: 40%;"><span style="color: rgb(77, 77, 77);">VLC es un
+                                            reproductor multimedia libre y de código abierto multiplataforma y un
+                                            «framework» que reproduce la mayoría de archivos multimedia, así como DVD,
+                                            Audio CD, VCD y diversos protocolos de transmisión.</span></p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <script src="assets/bootstrap/js/bootstrap.min.js"></script>
+    <script src="assets/js/script.min.js"></script>
 </body>
+
 </html>
-
-    <!-- <script type="text/javascript" src="interfaz.js"></script> -->
-
-
-
- <!-- <!DOCTYPE html>
-<html lang="es">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Descargar Aplicación</title>
-</head>
-<body>
-
-<a href="ejecutable/vlc.apk" download="vlc.apk">
-    <button class="btn btn-primary" type="button">Descargar Aplicación</button>
-</a>
-
-</body>
-</html> -->
